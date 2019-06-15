@@ -7,7 +7,7 @@ public class TryGit {
 System.out.println("hello git");
 
 		//try one more
-System.out.println("hello git from eclipse , why log in");
+System.out.println("hello git from eclipse , why log in2");
 
 	}
 
