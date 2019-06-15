@@ -1,0 +1,36 @@
+                         Abstraction:
+
+1.abstract class are not meant to be instantiated
+2.abstract class are meant to be super class
+3.to provide a general idea, without implementation  details
+  using abstract method
+4.ABSTRACT METHOD MUST BE IN ABSTRACT CLASS
+  HOWEVER
+  A ABSTRACT CLASS DOES NOT HAVE TO HAVE ABSTRACT METHOD
+  
+  THE ONLY EFFECT OF MAKING THIS ABSTRACT AT THIS MOMENT 
+  IS TO PREVENT OBJECT IS BEING CREATED OF THIS CLASS
+
+Other than above--->
+YOU CAN HAVE EVERYTHING ELSE A NORMAL CALSS CAN HAVE
+
+
+eg:
+  
+   public abstract class Student {
+
+     int id; 
+     String name; 
+  
+     public abstract void attendClass() ; 
+     
+  }
+ 
+ Can we make static method abstract --->>
+     NO!! cuz it static can not be overridden
+     
+ Can we make final method abstract--->
+    NO!! cuz abs needs to override, but final NOT
+    
+ Can we make private method abstract--->
+    NO!!   

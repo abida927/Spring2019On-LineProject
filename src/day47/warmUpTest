@@ -1,0 +1,31 @@
+WARM UP 
+	Create a class called Bike 
+		private instance fileds : brand, gear, speed , 
+		                          id
+		private static field : countOfBike 
+
+		provide getters for all instance fields 
+		privide setters for brand, gear, speed
+
+		create 3 args constructors 
+			to set brand, gear, speed
+			and keep the count of objects here
+			set the id value by the count of object to 
+			stimulate incremented ID for each objects 
+			call your no arg constructor in here
+
+		create private no arg constructor  
+			print out no arg is being called 
+
+	create instance methods
+			speedUp : accept one increaseBy as int 
+					return nothing , it will increase current
+					 speed by the amount provided
+
+			slowdown} : accept one decreaseBy as int 
+					return nothing , it will decrease current 
+					speed by the amount provided
+			toString method as usual 
+
+	create static methods showCurrentCount
+		accept no arg and just print out static variable count 

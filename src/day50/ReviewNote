@@ -1,0 +1,82 @@
+//what we can have inside one class
+instance fields/methods
+static fields/methods
+constructor--initialize state
+getter//setter(encapsulate the private fields)
+
+Difference between constructor and setter?
+constructor  construct  object and initial value inside constructor
+setter set the value after object created
+
+static member(fields / methods):
+only have one copy
+belong to the class
+access in static way--className.staticFieldName/ className.staticMethodName
+when to use static member? --->
+     when there is  no relationship with object property/behavior.
+
+what can we access in instance method:(access both)
+instance fields/method
+static fields/method
+
+
+what can we access in static  method:
+only access static member!!
+
+
+//Inheritance
+--> a class can use fields and methods from another class by
+extending it(extends--keyword), instead of creating everything from scracth
+
+Is-A Relationship
+
+what keyword to build relationship
+     public class Student extends Person{
+     }
+      
+How many class a class can extends directly
+    a class can only extend one another class
+ 
+   can not:
+    public class Student extends Person, Human, Robert{
+     }
+      
+   but can:
+    Child --> Parent-->GrandParent--> Object(class)
+    
+    Child c1 = new Child();
+    c1.everyVisible FieldsAndMethod..
+    
+what's inherited from super class
+   All visible fields / methods from super class
+   Constructor IS NOT INHERITED
+   
+Visibility:
+   private ---in same class
+   default --- same package
+   protected ---same package + sub classes outside the package
+   public --- open to the word.
+   
+   
+Constructor :
+    how to call other constructors of same class:
+    --->this(args..)
+        it has to be first statement
+        it can only be called once
+        recursive calls should be avoided: 
+        ( compiler error )u call me , I call u 
+        
+    
+    how to call super class constructor
+    --->super(args..)
+         it has to be first statement
+         it can only be called once
+            super() and will be inserted in first line
+            super() and this() can not show up together in same constructor!!
+            CAN NOT CALL A CONSTRUCTOR THAT WE DO NOT HAVE!!
+     
+   
+    
+    
+    
+    
