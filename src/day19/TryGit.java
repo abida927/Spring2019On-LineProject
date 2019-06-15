@@ -6,7 +6,7 @@ public class TryGit {
 
 System.out.println("hello git");
 
-System.out.println("hello git from eclipse");
+System.out.println("hello git from eclipse2");
 
 	}
 
