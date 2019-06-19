@@ -2,6 +2,10 @@ package day56;
 
 public abstract class Animal {
 
+	public static Animal getMyAnimal() {
+		return null;
+	}
+	
 	public abstract void makeNoise();
 }
 
